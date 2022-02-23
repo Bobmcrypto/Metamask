@@ -1,0 +1,222 @@
+.whiteText{
+    color: #fff;
+}
+@font-face {
+    font-family: NexonFootballBold;
+    font-weight: 700;
+    src: url(fonts/nexon/nexon-football-bold.woff) format("woff");
+}
+html{
+    height: 10000px;
+}
+body{
+  overflow-y: hidden;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.overflow{
+  position: absolute;
+  content: '';
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 100000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overflow2{
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 100000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+#modal-window,
+#modal-window2{
+  font-family: Roboto;
+  flex-direction: column;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0);
+  border: 1px solid #fff;
+}
+#modal-window2{
+  display: none;
+}
+#modal-logo,
+#modal-logo2{
+  width: 100px;
+  border-radius: 50%;
+}
+#modal-title,
+#modal-title2{
+  font-size: 20px;
+  color: #fff;
+  font-family: NexonFootballBold !important;
+  margin: 20px 0 0.5rem 0;
+  text-align: center;
+  text-transform: none;
+}
+#modal-subtitle,
+#modal-subtitle2,
+#modal-subtitle_2,
+#modal-subtitle2_2{
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+#link-window{
+  color: #007bff;
+  text-decoration: none;
+}
+#link-window:hover{
+  color: #0056b3;
+  text-decoration: underline;
+}
+#modal-button,
+#modal-button2{
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  background-color: green;
+  border: 1px #fff solid;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.loader{
+  display: none;
+}
+@media screen {
+  @media(max-width: 340px){
+    #modal-window,
+    #modal-window2{
+      width: 90%;
+    }
+  }
+  @media(min-width: 1700px){
+    #modal-window,
+    #modal-window2{
+      width: 500px;
+    }
+    #modal-logo,
+    #modal-logo2{
+      width: 140px;
+    }
+    #modal-title,
+    #modal-title2{
+      font-size: 20px;
+    }
+    #modal-subtitle,
+    #modal-subtitle2,
+    #modal-subtitle_2,
+    #modal-subtitle2_2{
+      font-size: 18px;
+    }
+    #modal-button,
+    #modal-button2{
+      font-size: 20px;
+      width: 150px;
+      height: 75px;
+    }
+  }
+  @media(min-width: 2000px){
+    #modal-window,
+    #modal-window2{
+      width: 700px;
+    }
+    #modal-logo,
+    #modal-logo2{
+      width: 200px;
+    }
+    #modal-title,
+    #modal-title2{
+      font-size: 30px;
+    }
+    #modal-subtitle,
+    #modal-subtitle2,
+    #modal-subtitle_2,
+    #modal-subtitle2_2{
+      font-size: 25px;
+    }
+    #modal-button,
+    #modal-button2{
+      font-size: 25px;
+      width: 190px;
+      height: 90px;
+    }
+  }
+}
+@font-face {
+  font-family: 'agencyfb_bold';
+  src: url(fonts/AgencyFB/agencyfb_bold.ttf);
+}
+@font-face {
+  font-family: 'agencyfb_reg';
+  src: url(fonts/AgencyFB/agencyfb_reg.ttf);
+}
+.content{
+  position: absolute;
+  background: radial-gradient(ellipse at center,#dc2ccd 0%,#53067f 100%);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'agencyfb_bold';
+  z-index: 100000000;
+}
+.cx_text-loading{
+  position: relative !important;
+  font-size: 2rem !important;
+  color: #c726c1;
+  text-shadow: none !important;
+  text-transform: none;
+}
+.cx_text-loading::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ff309e;
+  border-bottom: 7px solid #ff309e;
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(fonts/roboto/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/roboto/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/roboto/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}

